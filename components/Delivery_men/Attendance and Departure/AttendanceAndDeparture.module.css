@@ -84,7 +84,14 @@
     gap: 1rem 2rem;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    font-weight: 600;
 }
+
+.week>div:nth-of-type(4) p span,
+.month>div p span  {
+    font-weight: 400;
+}
+
 
 .month {
     margin-top: 2rem;
