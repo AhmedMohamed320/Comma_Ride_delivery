@@ -73,7 +73,6 @@ const Login = () => {
                             />
                         </Link>
                         <div>
-                            <p>تسجيل الدخول</p>
                             {/* <p className="text-2xl">
                                 تسجيل الدخول  عن طر الكود 
                             </p> */}
