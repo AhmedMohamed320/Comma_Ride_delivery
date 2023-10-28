@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import classes from "./page.module.css";
 import Link from "next/link";
@@ -15,7 +15,13 @@ const page = () => {
         <section className={`mainContainer ${classes.section}`}>
             <div className={classes.nav}>
                 <ul>
-                    <li>
+                    <li
+                        className={
+                            content == "personal_information"
+                                ? classes.active
+                                : ""
+                        }
+                    >
                         <Link
                             href={{
                                 pathname: "/",
@@ -25,7 +31,7 @@ const page = () => {
                             المعلومات الشخصيه
                         </Link>
                     </li>
-                    <li>
+                    <li className={content == "orders" ? classes.active : ""}>
                         <Link
                             href={{
                                 pathname: "/",
@@ -35,7 +41,11 @@ const page = () => {
                             اوردرات اليوم
                         </Link>
                     </li>
-                    <li>
+                    <li
+                        className={
+                            content == "Order_statistics" ? classes.active : ""
+                        }
+                    >
                         <Link
                             href={{
                                 pathname: "/",
@@ -45,7 +55,13 @@ const page = () => {
                             احصائيات الاوردارت
                         </Link>
                     </li>
-                    <li>
+                    <li
+                        className={
+                            content == "Attendance_Departure"
+                                ? classes.active
+                                : ""
+                        }
+                    >
                         <Link
                             href={{
                                 pathname: "/",
@@ -60,9 +76,8 @@ const page = () => {
             </div>
             {content == "personal_information" && <Profile />}
             {content == "Order_statistics" && <Order_statistics />}
-            {content == "Attendance_Departure" && <AttendanceAndDeparture/>}
-            {content == "orders" && <Orders/>}
-
+            {content == "Attendance_Departure" && <AttendanceAndDeparture />}
+            {content == "orders" && <Orders />}
         </section>
     );
 };
