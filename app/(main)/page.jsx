@@ -10,7 +10,7 @@ import Orders from "@/components/Delivery_men/orders/Orders";
 
 const page = () => {
     const router = useSearchParams();
-    const content = router.get("content") || "personal_information";
+    const content = router.get("content") || "orders";
     return (
         <section className={`mainContainer ${classes.section}`}>
             <div className={classes.nav}>
