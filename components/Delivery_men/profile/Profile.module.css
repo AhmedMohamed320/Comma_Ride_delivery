@@ -3,7 +3,7 @@
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 2rem 1rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     box-shadow: var(--box-shadow-1);
     background-color: var(--color-dark-5);
     color: var(--color-light-2);
@@ -54,11 +54,11 @@
 }
 
 .details>p {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .details>p span {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* ---------- */

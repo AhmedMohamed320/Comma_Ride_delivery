@@ -46,7 +46,7 @@
 }
 
 .order > div p {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .order > div p span {
@@ -134,7 +134,7 @@
 }
 
 .stateOrder > div p {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .stateOrder > div.completed {

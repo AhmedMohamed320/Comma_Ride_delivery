@@ -12,7 +12,7 @@ const Nav = () => {
                 </div>
                 <div className="flex gap-4 items-center">
                     <p>
-                        <span className="text-2xl font-medium">احمد محمد</span>
+                        <span className="text-3xl">احمد محمد</span>
                     </p>
                     <Link href="/sign_in">تسجيل الخروج</Link>
                 </div>
