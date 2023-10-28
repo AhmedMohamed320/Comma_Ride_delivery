@@ -1,0 +1,25 @@
+.nav {
+    height: 10vh;
+    background-color: var(--color-dark-5);
+    color: var(--color-light-2);
+}
+
+.nav .img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .img img {
+    height: 70%;
+}
+
+.nav nav a {
+    background-color: var(--color-red-1);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: var(--color-light-2);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
