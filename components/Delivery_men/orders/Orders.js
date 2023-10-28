@@ -43,17 +43,15 @@ const Orders = () => {
                     </div>
                 </div>
             </div>
-            <div className={classes.head}>
-                <p>اوردرات يوم</p>
-                <input type="date" />
-                <p>العدد : 2</p>
-            </div>
             <div className={classes.orders}>
                 <OrderCard
                     alertText={setAlertData}
                     showAlertDiv={setShowAlert}
                 />
-                
+                <OrderCard
+                    alertText={setAlertData}
+                    showAlertDiv={setShowAlert}
+                />
             </div>
         </section>
     );
